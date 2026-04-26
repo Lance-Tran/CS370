@@ -7,24 +7,14 @@ Code Created: I designed the Neural Network architecture (DQN) and the qtrain lo
 
 ## Connect your learning from throughout this course to the larger field of computer science: What do computer scientists do and why does it matter? How do I approach a problem as a computer scientist?
 
-Computer scientists are architects of efficiency. They don't just "write code"; they solve problems by translating abstract human needs into logical, repeatable processes.
+Computer scientists are architechs that design with efficiency in mind. They look at code more than they write it and think, "hm, what could be done better?" It might involve changing scripts to functions, changing functions to algorithms or changing algorithms to reinforced learning. They don't just "write code"; they solve problems by translating abstract human needs into logical, repeatable processes.
 
-Why it matters: In the larger field, this matters because it allows us to scale solutions. Whether it's a pirate finding treasure or a medical AI identifying a tumor, the underlying discipline of optimizing an algorithm (like the one I built) saves time, money, and human effort.
+To approach a problem as a computer scientist is to embrace Decomposition and Abstraction. Instead of looking at the treasure hunt as a big task, I had to break it down into the current state, the reward, and iteration. Instead of thinking of it as completing the goal, as long as the individual step was iterative enough it would take me to the goal. Even if a journey begins with a single step, it can take millions of them. Then I designed a transition from one system of action to another -- from random exploration to greedy exploitation of knowledge learned over multiple episodes.
 
+Why it matters: In the larger field, this matters because it allows us to scale solutions. When the first step of a process is just as useful as the last step, you're not making a specific solution for a specific instance, you're making shoes for making the journey, wherever it may take you. It's an encapsulation and ideal of a perfect solution.
 
-To approach a problem as a computer scientist is to embrace Decomposition and Abstraction.
-
-Instead of looking at the "Treasure Hunt" as one big task, I broke it down into:
-
-State Representation: How does the computer "see" the map?
-
-Reward Function: How do we define success?
-
-Iteration: How do we move from "Zero-Value Inertia" to an optimal path?
-
-This methodical approach—breaking a massive obstacle into tiny, solvable logic gates—is the hallmark of the discipline.
 
 ## What are my ethical responsibilities to the end user and the organization?
-To the Organization: I must ensure the code is efficient, maintainable, and cost-effective. As I discussed in my critique, balancing training time with "thoroughness" is a fiduciary duty to the organization paying for the compute power.
+A computer scientist has a lot of ethical responsibilities to multiple entities. To their organization and the end-user. For the organization, it needs to be efficient, maintainable, cost-effective, and doesn't put them into a legal liability. Time and budget at valuable resources and need to be balanced. 
 
-To the End User: My responsibility is Transparency and Safety. Since AI can be a "black box," I must ensure the agent’s behavior is predictable. For instance, in a real-world scenario, an agent that settles for a "suboptimal win" might be dangerous or wasteful. My responsibility is to design systems that are not only functional but also interpretable and fair.
+For the end-user the responsibility is transparency and safety. If they provide me information, I must not use it in a way that might possibly harm them, and that the agent's behavior is predictable and understandable, even if AI is a black box entity. In the future there might be movement towards more transparency and interpretability with AI learning models in order to help promote ethics and safety.
